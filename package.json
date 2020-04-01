@@ -1,0 +1,37 @@
+{
+  "name": "tools.revenko.org",
+  "productName": "DevTools",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "quasar dev",
+    "build": "quasar build && cp CNAME docs/",
+    "lint": "eslint --ext .js,.vue src",
+    "lint:fix": "eslint --fix --ext .js,.vue src",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "devDependencies": {
+    "@quasar/app": "^1.0.0",
+    "@quasar/extras": "^1.0.0",
+    "babel-eslint": "^10.0.1",
+    "copy-to-clipboard": "^3.3.1",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^4.0.0",
+    "eslint-loader": "^3.0.3",
+    "eslint-plugin-vue": "^6.1.2",
+    "md5": "^2.2.1",
+    "quasar": "^1.0.0",
+    "random-js": "^2.1.0",
+    "vue-yandex-metrika": "^1.8.3"
+  },
+  "engines": {
+    "node": ">= 10.18.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  },
+  "browserslist": [
+    "last 1 version, not dead, ie >= 11"
+  ],
+  "resolutions": {
+    "@babel/parser": "7.7.5"
+  }
+}
